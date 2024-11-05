@@ -5,6 +5,6 @@ const accountSchema=new mongoose.Schema({
     address: String
 });
 
-const Account=Mongoose.model("Account", accountSchema);
+const Account=mongoose.model("Account", accountSchema);
 
 module.exports=Account;
