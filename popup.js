@@ -232,12 +232,12 @@ function logout(){
 }
 
 function openTransfer(){
-    document.getElementById("transfer_from").style.display="block";
+    document.getElementById("transfer_form").style.display="block";
     document.getElementById("home").style.display="none";
 }
 
 function goBack(){
-    document.getElementById("transfer_from").style.display="none";
+    document.getElementById("transfer_form").style.display="none";
     document.getElementById("home").style.display="block";
 }
 
